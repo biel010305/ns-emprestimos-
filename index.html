@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NS Empréstimos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="NS Empréstimos" class="logo" />
+    <h1>Bem-vindo ao NS Empréstimos</h1>
+  </header>
+  <main>
+    <section class="simulador">
+      <h2>Simule seu Empréstimo</h2>
+      <form id="simulador-form">
+        <label>Valor do Empréstimo (R$): <input type="number" id="valor" required></label>
+        <label>Nº de Parcelas: <input type="number" id="parcelas" required></label>
+        <label>Taxa de Juros (% ao mês): <input type="number" id="juros" required></label>
+        <button type="submit">Simular</button>
+      </form>
+      <div id="resultado"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
